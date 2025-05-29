@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><svg viewBox="0 0 123 24" xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink">
+   <style>
+      :root>svg {
+         display: none
+      }
+
+      :root>svg:target {
+         display: block
+      }
+   </style><svg fill="none" viewBox="0 0 24 24" id="arrow-left" xmlns="http://www.w3.org/2000/svg">
+      <path d="m3 12 5 5m-5-5 5-5m-5 5h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+         stroke-linejoin="round" />
+   </svg><svg fill="none" viewBox="0 0 24 24" id="play-solid" xmlns="http://www.w3.org/2000/svg">
+      <path d="M6.906 4.53702C6.81491 4.48301 6.71114 4.45407 6.60524 4.45315C6.49934 4.45222 6.39508 4.47934 6.30306 4.53175C6.21104 4.58417 6.13452 4.66 6.0813 4.75155C6.02807 4.84311 6.00002 4.94712 6 5.05302V18.947C6.00002 19.0529 6.02807 19.1569 6.0813 19.2485C6.13452 19.34 6.21104 19.4159 6.30306 19.4683C6.39508 19.5207 6.49934 19.5478 6.60524 19.5469C6.71114 19.546 6.81491 19.517 6.906 19.463L18.629 12.516C18.7185 12.4629 18.7927 12.3874 18.8442 12.2969C18.8957 12.2064 18.9228 12.1041 18.9228 12C18.9228 11.8959 18.8957 11.7936 18.8442 11.7031C18.7927 11.6127 18.7185 11.5371 18.629 11.484L6.906 4.53702Z" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+   </svg><svg fill="none" viewBox="0 0 24 24" id="arrow-right" xmlns="http://www.w3.org/2000/svg">
+      <path d="m21 12-5 5m5-5-5-5m5 5H3" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+         stroke-linejoin="round" />
+   </svg><svg fill="none" viewBox="0 0 24 24" id="bind" xmlns="http://www.w3.org/2000/svg">
+      <path d="M8 12h8m-1-4h2a4 4 0 0 1 0 8h-2M9 8H7a4 4 0 1 0 0 8h2" stroke="currentColor" stroke-width="2"
+         stroke-linecap="round" stroke-linejoin="round" />
+   </svg><svg fill="none" viewBox="0 0 24 24" id="call" xmlns="http://www.w3.org/2000/svg">
+      <path
+         d="M9.502 4.257A2 2 0 0 0 7.646 3H4.895A1.895 1.895 0 0 0 3 4.895C3 13.789 10.21 21 19.105 21A1.895 1.895 0 0 0 21 19.105v-2.751a2 2 0 0 0-1.257-1.857l-2.636-1.054a2 2 0 0 0-2.023.32l-.68.568a2.001 2.001 0 0 1-2.696-.122L9.792 12.29a2 2 0 0 1-.123-2.694l.567-.68a2 2 0 0 0 .322-2.024L9.502 4.257Z"
+         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+   </svg><svg fill="none" viewBox="0 0 24 24" id="chat" xmlns="http://www.w3.org/2000/svg">
+      <path
+         d="m5.6 19.92 1.524-1.219.01-.008c.318-.255.479-.383.658-.474.16-.082.331-.142.508-.178.199-.041.406-.041.822-.041h8.681c1.118 0 1.678 0 2.105-.218a2 2 0 0 0 .874-.874C21 16.48 21 15.92 21 14.804V7.197c0-1.118 0-1.678-.218-2.105a2.001 2.001 0 0 0-.875-.874C19.48 4 18.92 4 17.8 4H6.2c-1.12 0-1.68 0-2.108.218a1.999 1.999 0 0 0-.874.874C3 5.52 3 6.08 3 7.2v11.471c0 1.066 0 1.599.218 1.872a1 1 0 0 0 .783.377c.35 0 .766-.334 1.599-1Z"
+         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+   </svg><svg fill="none" viewBox="0 0 24 24" id="chevron" xmlns="http://www.w3.org/2000/svg">
+      <path d="m9 5 7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+   </svg><svg fill="none" viewBox="0 0 24 24" id="minus" xmlns="http://www.w3.org/2000/svg">
+      <path d="M6 12h12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+   </svg><svg fill="none" viewBox="0 0 24 24" id="open-full" xmlns="http://www.w3.org/2000/svg">
+      <path d="M10 19H5v-5m9-9h5v5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+   </svg><svg fill="none" viewBox="0 0 24 24" id="plus" xmlns="http://www.w3.org/2000/svg">
+      <path d="M6 12h6m0 0h6m-6 0v6m0-6V6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+         stroke-linejoin="round" />
+   </svg>
+</svg>
