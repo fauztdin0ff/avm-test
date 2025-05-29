@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/lightgallery.css?_v=20241014191714">
+   <link rel="stylesheet" href="css/swiper-bundle.min.css?_v=20241014191714">
+   <link rel="stylesheet" href="css/style.min.css">
+   <title>Главная</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__body">
+            <a href="index.html" class="header__logo" aria-label="Главная страница">
+               <img src="img/logo.png" class="header__logo-icon" alt="AVM.tech">
+            </a>
+            <div class="header__menu menu">
+               <div class="menu__buttons">
+                  <div class="menu__open-button btn-anim-m">
+                     <svg class="menu__open-icon">
+                        <use xlink:href="img/icons/icons.svg#plus"></use>
+                     </svg>
+                     <span>Меню</span>
+                  </div>
+                  <a href="tel:+777777777" class="menu__phone btn-anim-t">
+                     <span class="btn-anim-t-icon">
+                        <svg>
+                           <use xlink:href="img/icons/icons.svg#call"></use>
+                        </svg>
+                     </span>
+                     <span class="btn-anim-t-text">Позвонить</span>
+                  </a>
+               </div>
+               <div class="menu__body">
+                  <img src="img/logo.svg" class="menu__logo" alt="AVM.tech">
+                  <div class="menu__details">
+                     <div class="absolute-title">Контакты</div>
+                     <div class="menu__title">AVM Technology</div>
+                     <div class="menu__list">
+                        <ul class="menu__contacts">
+                           <li><a href="tel:+79063685851" class="menu__link">+7 (906) 368-58-51</a></li>
+                           <li><a href="tel:+79040574959" class="menu__link">+7 (904) 057-49-59</a></li>
+                           <li><a href="mailto:info@avmtechnology.ru" class="menu__link">info@avmtechnology.ru</a></li>
+                           <li><a href="https://maps.app.goo.gl/Hiz7axLNGiMEQ9BW6" target="_blank"
+                                 class="menu__link menu__link-thin">Нижний Новгород, пр. Гагарина, 25, корп. 1, Центр
+                                 инновационного развития</a></li>
+                        </ul>
+                        <ul class="menu__links">
+                           <li><a href="services.html" class="menu__link">Сервисы</a></li>
+                           <li><a href="blog.html" class="menu__link">Блог</a></li>
+                           <li><a href="policy.html" class="menu__link menu__link-thin">Политика конфиденциальности</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="menu__call-buttons">
+                     <div class="menu__buttons-callback">
+                        <button class="open-callback btn-anim-l">
+                           <span class="btn-anim-l-icon">
+                              <svg>
+                                 <use xlink:href="img/icons/icons.svg#chat"></use>
+                              </svg>
+                           </span>
+                           <span class="btn-anim-l-text">Обсудить идею</span>
+                        </button>
+                        <a href="tel:+79063685851" class="btn-anim-l btn-anim-l-bl">
+                           <span class="btn-anim-l-icon">
+                              <svg>
+                                 <use xlink:href="img/icons/icons.svg#call"></use>
+                              </svg>
+                           </span>
+                           <span class="btn-anim-l-text">Позвонить</span>
+                        </a>
+                     </div>
+                     <div class="menu__buttons-socials">
+                        <div class="menu__buttons-row">
+                           <a href="" class="btn-anim-r menu__buttons-social">
+                              <span>telegram</span>
+                              <svg>
+                                 <use xlink:href="img/icons/icons.svg#bind"></use>
+                              </svg>
+                           </a>
+                           <a href="" class="btn-anim-r menu__buttons-social">
+                              <span>whats app</span>
+                              <svg>
+                                 <use xlink:href="img/icons/icons.svg#bind"></use>
+                              </svg>
+                           </a>
+                        </div>
+                        <div class="menu__buttons-row">
+                           <a href="" class="btn-anim-r menu__buttons-social">
+                              <span>youtube</span>
+                              <svg>
+                                 <use xlink:href="img/icons/icons.svg#bind"></use>
+                              </svg>
+                           </a>
+                           <a href="" class="btn-anim-r menu__buttons-social">
+                              <span>telegram канал</span>
+                              <svg>
+                                 <use xlink:href="img/icons/icons.svg#bind"></use>
+                              </svg>
+                           </a>
+                           <a href="" class="btn-anim-r menu__buttons-social">
+                              <span>vk</span>
+                              <svg>
+                                 <use xlink:href="img/icons/icons.svg#bind"></use>
+                              </svg>
+                           </a>
+                           <a href="" class="btn-anim-r menu__buttons-social">
+                              <span>дзен</span>
+                              <svg>
+                                 <use xlink:href="img/icons/icons.svg#bind"></use>
+                              </svg>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="menu__close btn-anim-m">
+                     <svg class="menu__phone-icon">
+                        <use xlink:href="img/icons/icons.svg#minus"></use>
+                     </svg>
+                     <span>Закрыть</span>
+                  </div>
+                  <div class="menu__callback">
+                     <form class="menu__callback-body form">
+                        <div class="form__body">
+                           <div class="form__title">Обсудить идею</div>
+                           <div class="form__items">
+                              <div class="form__item">
+                                 <input type="text">
+                                 <p class="form__item-label">
+                                    <span>И</span>
+                                    <span>М</span>
+                                    <span>Я</span>
+                                 </p>
+                              </div>
+                              <div class="form__item">
+                                 <input type="email">
+                                 <p class="form__item-label">
+                                    <span>@</span>
+                                 </p>
+                              </div>
+                              <div class="form__item">
+                                 <input type="text" class="tel-mask" required>
+                                 <p class="form__item-label">
+                                    <span>T</span>
+                                    <span>е</span>
+                                    <span>л</span>
+                                    <span>е</span>
+                                    <span>ф</span>
+                                    <span>о</span>
+                                    <span>н</span>
+                                    <span>*</span>
+                                 </p>
+                              </div>
+                              <div class="form__item">
+                                 <input type="text">
+                                 <p class="form__item-label">
+                                    <span>О</span>
+                                    <span>п</span>
+                                    <span>и</span>
+                                    <span>ш</span>
+                                    <span>и</span>
+                                    <span>т</span>
+                                    <span>е</span>
+                                    <span> </span>
+                                    <span>з</span>
+                                    <span>а</span>
+                                    <span>п</span>
+                                    <span>р</span>
+                                    <span>о</span>
+                                    <span>с</span>
+                                 </p>
+                              </div>
+                           </div>
+                           <div class="form__buttons">
+                              <button type="submit">отправить</button>
+                              <span class="success-btn">Ваш запрос отправлен
+                                 <svg>
+                                    <use xlink:href="img/icons/icons.svg#arrow-right"></use>
+                                 </svg>
+                              </span>
+                              <p>Нажимая на кнопку, Вы соглашаетесь с
+                                 <a href="policy.html">политикой конфиденциальности</a>
+                              </p>
+                           </div>
+                           <div class="loading-icon"></div>
+
+                        </div>
+                        <div class="menu__callback-close  btn-anim-m">
+                           <svg class="menu__phone-icon">
+                              <use xlink:href="img/icons/icons.svg#minus"></use>
+                           </svg>
+                           <span>назад</span>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <main>
+         <section class="mainentance mainentance-sm">
+            <div class="mainentance__body container">
+               <a href="" class="mainentance__back">
+                  <svg>
+                     <use xlink:href="img/icons/icons.svg#chevron"></use>
+                  </svg>
+                  Обратно к услугам
+               </a>
+               <div class="mainentance__title">Ивенты</div>
+            </div>
+            <div class="service-decore">
+               <picture>
+                  <source srcset="img/decorations/serv.webp" type="image/webp"><img src="img/decorations/serv.png"
+                     alt="">
+               </picture>
+            </div>
+         </section>
+         <div class="reels">
+            <div class="block-name">
+               Рилс
+            </div>
+            <div class="reels__body container">
+               <div class="reels__wrapper">
+                  <img src="img/vidcv.png" class="reels__cover"></img>
+                  <video src="files/videobg.mp4" class="reels__video" preload="none" controls></video>
+                  <div class="reels__icon">
+                     <svg>
+                        <use xlink:href="img/icons/icons.svg#play-solid"></use>
+                     </svg>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <section class="about-service about">
+            <div class="block-name">
+               Услуга
+            </div>
+            <div class="about__body container">
+               <div class="hero__title">
+                  Ивенты
+               </div>
+               <div class="about__content">
+                  <div class="about__text">
+                     <div class="about__text-subtitle">
+                        решения для тренировки сотрудников
+                        на промышленных предприятиях
+                     </div>
+                     <p>Мы создаем решения, которые позволят эффективно обучать сотрудников безопасно и без ущерба для
+                        оборудования</p>
+                  </div>
+                  <div class="about__benefits">
+                     <div class="about__benefit btn-anim-v">
+                        <span class="about__benefit-value">-25%</span>
+                        <span class="about__benefit-name">на 25% можно снизить стоимость обучения сотрудников</span>
+                     </div>
+                     <div class="about__benefit btn-anim-v">
+                        <span class="about__benefit-value">+28%</span>
+                        <span class="about__benefit-name">на 28% эффективнее, чем теория</span>
+                     </div>
+                     <div class="about__benefit btn-anim-v">
+                        <span class="about__benefit-value">x2</span>
+                        <span class="about__benefit-name">в 2 раза сокращается время обучения</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="applications">
+            <div class="block-name">
+               Области применения
+            </div>
+            <div class="applications__body container">
+               <div class="applications__slider swiper">
+                  <div class="applications__wrapper swiper-wrapper">
+                     <div class="applications__slide swiper-slide">
+                        <div class="applications__image">
+                           <img src="img/appl-im-1.png" alt="">
+                        </div>
+                        <div class="applications__name">
+                           Интерактивные Совещания
+                        </div>
+                        <div class="applications__text">
+                           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                           been the industry's standard
+                           dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                           it to make a type specimen
+                           book.
+                        </div>
+                     </div>
+                     <div class="applications__slide swiper-slide">
+                        <div class="applications__image">
+                           <img src="img/appl-im-2.png" alt="">
+                        </div>
+                        <div class="applications__name">
+                           иммерсивные Дискуссии
+                        </div>
+                        <div class="applications__text">
+                           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                           been the industry's standard
+                           dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                           it to make a type specimen
+                           book.
+                        </div>
+                     </div>
+                     <div class="applications__slide swiper-slide">
+                        <div class="applications__image">
+                           <img src="img/appl-im-1.png" alt="">
+                        </div>
+                        <div class="applications__name">
+                           Ликвидация
+                           аварий
+                        </div>
+                        <div class="applications__text">
+                           Сотрудники отрабатывают навыки поведения в экстренных ситуациях в полевых условиях без
+                           остановки производства.
+                        </div>
+                     </div>
+                     <div class="applications__slide swiper-slide">
+                        <div class="applications__image">
+                           <img src="img/appl-im-2.png" alt="">
+                        </div>
+                        <div class="applications__name">
+                           Разработка VR приложений
+                        </div>
+                        <div class="applications__text">
+                           Отработка навыков в VR помогает эффективнее запоминать новую информацию. Благодаря практике
+                           неопытные сотрудники не
+                           получат травмы и не допустят поломку оборудования
+                        </div>
+                     </div>
+                     <div class="applications__slide swiper-slide">
+                        <div class="applications__image">
+                           <img src="img/appl-im-1.png" alt="">
+                        </div>
+                        <div class="applications__name">
+                           Инструктажи
+                           ОТ и ПБ
+                        </div>
+                        <div class="applications__text">
+                           Автоматизация проведения инструктажей по охране труда и промышленной безопасности Контроль
+                           полученных знаний.
+                        </div>
+                     </div>
+                     <div class="applications__slide swiper-slide">
+                        <div class="applications__image">
+                           <img src="img/appl-im-2.png" alt="">
+                        </div>
+                        <div class="applications__name">
+                           Ликвидация
+                           аварий
+                        </div>
+                        <div class="applications__text">
+                           Сотрудники отрабатывают навыки поведения в экстренных ситуациях в полевых условиях без
+                           остановки производства.
+                        </div>
+                     </div>
+                  </div>
+                  <div class="slider-buttons">
+                     <div class="applications__slide-prev slider-prev">
+                        <svg>
+                           <use xlink:href="img/icons/icons.svg#arrow-left"></use>
+                        </svg>
+                     </div>
+                     <div class="applications__slide-next slider-next">
+                        <svg>
+                           <use xlink:href="img/icons/icons.svg#arrow-right"></use>
+                        </svg>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <div class="cases">
+            <div class="block-name">
+               примеры проектов
+            </div>
+            <div class="cases__body container">
+               <div class="cases__slider swiper">
+                  <div class="cases__slider-wrapper swiper-wrapper">
+                     <div class="cases__slide case swiper-slide">
+                        <a href="" class="case__image">
+                           <picture>
+                              <source srcset="img/cases/case1.webp" type="image/webp"><img src="img/cases/case1.png"
+                                 alt="">
+                           </picture>
+                        </a>
+                        <div class="case__tags">
+                           <span class="case__tag">ios</span>
+                           <span class="case__tag">ar</span>
+                        </div>
+                        <div class="case__info">
+                           <a href="" class="case__name">НЕЙМАРК.<br> Цифровая вселенная</a>
+                           <div class="case__link">
+                              <a href="" class="btn-anim-r">
+                                 <span>Открыть</span>
+                                 <svg>
+                                    <use xlink:href="img/icons/icons.svg#chevron"></use>
+                                 </svg>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="cases__slide case swiper-slide">
+                        <a href="" class="case__image">
+                           <picture>
+                              <source srcset="img/cases/case2.webp" type="image/webp"><img src="img/cases/case2.png"
+                                 alt="">
+                           </picture>
+                        </a>
+                        <div class="case__tags">
+                           <span class="case__tag">ios</span>
+                           <span class="case__tag">ar</span>
+                           <span class="case__tag">медицина</span>
+                           <span class="case__tag">туризм</span>
+                           <span class="case__tag">ar</span>
+                           <span class="case__tag">медицина</span>
+                           <span class="case__tag">туризм</span>
+                        </div>
+                        <div class="case__info">
+                           <a href="" class="case__name">НЕЙМАРК.<br> Цифровая вселенная</a>
+                           <div class="case__link">
+                              <a href="" class="btn-anim-r">
+                                 <span>Открыть</span>
+                                 <svg>
+                                    <use xlink:href="img/icons/icons.svg#chevron"></use>
+                                 </svg>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="cases__slide case swiper-slide">
+                        <a href="" class="case__image">
+                           <picture>
+                              <source srcset="img/cases/case3.webp" type="image/webp"><img src="img/cases/case3.png"
+                                 alt="">
+                           </picture>
+                        </a>
+                        <div class="case__tags">
+                           <span class="case__tag">ios</span>
+                           <span class="case__tag">ar</span>
+                        </div>
+                        <div class="case__info">
+                           <a href="" class="case__name">НЕЙМАРК.<br> Цифровая вселенная</a>
+                           <div class="case__link">
+                              <a href="" class="btn-anim-r">
+                                 <span>Открыть</span>
+                                 <svg>
+                                    <use xlink:href="img/icons/icons.svg#chevron"></use>
+                                 </svg>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="cases__slide case swiper-slide">
+                        <a href="" class="case__image">
+                           <picture>
+                              <source srcset="img/cases/case1.webp" type="image/webp"><img src="img/cases/case1.png"
+                                 alt="">
+                           </picture>
+                        </a>
+                        <div class="case__tags">
+                           <span class="case__tag">ios</span>
+                           <span class="case__tag">ar</span>
+                        </div>
+                        <div class="case__info">
+                           <a href="" class="case__name">НЕЙМАРК.<br> Цифровая вселенная</a>
+                           <div class="case__link">
+                              <a href="" class="btn-anim-r">
+                                 <span>Открыть</span>
+                                 <svg>
+                                    <use xlink:href="img/icons/icons.svg#chevron"></use>
+                                 </svg>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="cases__slide case swiper-slide">
+                        <a href="" class="case__image">
+                           <picture>
+                              <source srcset="img/cases/case2.webp" type="image/webp"><img src="img/cases/case2.png"
+                                 alt="">
+                           </picture>
+                        </a>
+                        <div class="case__tags">
+                           <span class="case__tag">ios</span>
+                           <span class="case__tag">ar</span>
+                           <span class="case__tag">ios</span>
+                           <span class="case__tag">ar</span>
+                        </div>
+                        <div class="case__info">
+                           <a href="" class="case__name">НЕЙМАРК.<br> Цифровая вселенная</a>
+                           <div class="case__link">
+                              <a href="" class="btn-anim-r">
+                                 <span>Открыть</span>
+                                 <svg>
+                                    <use xlink:href="img/icons/icons.svg#chevron"></use>
+                                 </svg>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="cases__slide case swiper-slide">
+                        <a href="" class="case__image">
+                           <picture>
+                              <source srcset="img/cases/case3.webp" type="image/webp"><img src="img/cases/case3.png"
+                                 alt="">
+                           </picture>
+                        </a>
+                        <div class="case__tags">
+                           <span class="case__tag">ios</span>
+                           <span class="case__tag">ar</span>
+                        </div>
+                        <div class="case__info">
+                           <a href="" class="case__name">НЕЙМАРК.<br> Цифровая вселенная</a>
+                           <div class="case__link">
+                              <a href="" class="btn-anim-r">
+                                 <span>Открыть</span>
+                                 <svg>
+                                    <use xlink:href="img/icons/icons.svg#chevron"></use>
+                                 </svg>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="slider-buttons">
+                     <div class="cases__slide-prev slider-prev">
+                        <svg>
+                           <use xlink:href="img/icons/icons.svg#arrow-left"></use>
+                        </svg>
+                     </div>
+                     <div class="cases__slide-next slider-next">
+                        <svg>
+                           <use xlink:href="img/icons/icons.svg#arrow-right"></use>
+                        </svg>
+                     </div>
+                  </div>
+               </div>
+               <div class="decore-text">PROJECTS</div>
+            </div>
+         </div>
+         <div class="advantages">
+            <div class="block-name">
+               Преимущества
+            </div>
+            <div class="advantages__body container">
+               <div class="advantages__items">
+                  <div class="advantages__item">
+                     <div class="advantages__number">1</div>
+                     <div class="advantages__text">
+                        Эффективность
+                        <p class="advantages__description">Реалистичная виртуальная среда обеспечивает полное погружение
+                           и усвоение материала на уровне зрительной памяти</p>
+                     </div>
+                  </div>
+                  <div class="advantages__item">
+                     <div class="advantages__number">2</div>
+                     <div class="advantages__text">
+                        Качество обучения
+                        <p class="advantages__description">Интерактивность образовательной программы и отсутствие
+                           отвлекающих факторов обеспечивают полноту и глубину изучения
+                           материала</p>
+                     </div>
+                  </div>
+                  <div class="advantages__item">
+                     <div class="advantages__number">3</div>
+                     <div class="advantages__text">
+                        Экономия ресурсов
+                        <p class="advantages__description">Благодаря использованию VR, можно создавать шаблонные
+                           сценарии и обучать большое количество сотрудников не беспокоясь о
+                           порче настоящей техники</p>
+                     </div>
+                  </div>
+                  <div class="advantages__item">
+                     <div class="advantages__number">4</div>
+                     <div class="advantages__text">
+                        Гибкость и масштабируемость
+                        <p class="advantages__description">Приложения с виртуальной реальностью мультиплатформенные и
+                           легко масштаируемые</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="decore-text">benefits</div>
+            </div>
+         </div>
+         <div class="gallery">
+            <div class="block-name">
+               Галерея
+            </div>
+            <div class="gallery__body container">
+               <div class="gallery__items" id="galleryBlock">
+                  <a href="img/gallery/1.png" class="gallery__item">
+                     <img src="img/gallery/1.png" alt="">
+                  </a>
+                  <a href="img/gallery/2.png" class="gallery__item">
+                     <img src="img/gallery/2.png" alt="">
+                  </a>
+                  <a href="img/gallery/3.png" class="gallery__item">
+                     <img src="img/gallery/3.png" alt="">
+                  </a>
+                  <a href="img/gallery/4.png" class="gallery__item">
+                     <img src="img/gallery/4.png" alt="">
+                  </a>
+                  <a href="img/gallery/5.png" class="gallery__item">
+                     <img src="img/gallery/5.png" alt="">
+                  </a>
+               </div>
+            </div>
+         </div>
+         <section class="capabilities">
+            <div class="block-name">
+               Возможности
+            </div>
+            <div class="capabilities__body container">
+               <div class="capabilities__description">
+                  Виртуальная реальность (VR) и дополненная реальность (AR) открывают перед искусством новые горизонты,
+                  позволяя зрителям
+                  глубже погружаться в произведения и взаимодействовать с ними на ином уровне. Компания AVM Technology,
+                  специализирующаяся
+                  на разработке мультимедийных решений, предлагает инновационные услуги в области VR и AR, направленные
+                  на создание
+                  уникальных художественных и культурных проектов.
+               </div>
+               <div class="capabilities__text">
+                  <h2 class="capabilities__title">Возможности VR и AR в искусстве</h2>
+                  <p>
+                     Использование VR и AR в искусстве позволяет создавать виртуальные галереи, музеи и выставки, где
+                     зрители могут не только
+                     рассматривать произведения, но и полностью погружаться в их атмосферу. Такие технологии
+                     предоставляют
+                     новый опыт
+                     взаимодействия с искусством, делая его более доступным и интерактивным. Например, VR позволяет
+                     художникам создавать
+                     3D-полотна, в которые зритель может буквально "войти" и рассмотреть детали изнутри.
+                  </p>
+
+                  <p>
+                     AVM Technology предлагает комплексные решения по внедрению VR и AR в художественные проекты.
+                     Компания
+                     занимается
+                     разработкой виртуальных выставок, интерактивных инсталляций и мультимедийных презентаций, используя
+                     передовые технологии
+                     для создания высококачественного контента. Специалисты AVM Technology работают в тесном
+                     сотрудничестве
+                     с художниками,
+                     музеями и культурными учреждениями, чтобы обеспечить наилучший результат и удовлетворить
+                     потребности
+                     каждого клиента.
+                  </p>
+
+                  <p>
+                     Сотрудничество с AVM Technology открывает перед художниками и культурными учреждениями новые
+                     перспективы в использовании
+                     VR и AR технологий, позволяя создавать инновационные проекты и предоставлять зрителям уникальный
+                     опыт
+                     погружения в
+                     искусство.
+                  </p>
+               </div>
+            </div>
+         </section>
+         <section class="next-serv">
+            <div class="next-serv__body container">
+               <div class="next-serv__head">
+                  <div class="next-serv__title">Дальше <span>Маркетинг</span></div>
+                  <div class="next-serv__link">
+                     <a href="" class="btn btn-anim-r animated-out">
+                        <span>Смотреть</span>
+                        <svg>
+                           <use
+                              xlink:href="https://avmtechnology.ru/wp-content/themes/avm-tech/img/icons/icons.svg#chevron">
+                           </use>
+                        </svg>
+                     </a>
+                  </div>
+               </div>
+               <a href="" class="next-serv__image">
+                  <img src="img/gallery/2.png" alt="">
+               </a>
+            </div>
+         </section>
+      </main>
+      <footer class="footer">
+         <div class="block-name">
+            © 2024, Все права защищены
+         </div>
+         <div class="footer__body container">
+            <form class="footer__form form">
+               <div class="form__body">
+                  <div class="form__title">Обсудить идею
+                     <span class="scroll-top">Наверх страницы</span>
+                  </div>
+                  <div class="form__items">
+                     <div class="form__item">
+                        <input type="text">
+                        <p class="form__item-label">
+                           <span>И</span>
+                           <span>М</span>
+                           <span>Я</span>
+                        </p>
+                     </div>
+                     <div class="form__item">
+                        <input type="email">
+                        <p class="form__item-label">
+                           <span>E</span>
+                           <span>M</span>
+                           <span>A</span>
+                           <span>I</span>
+                           <span>L</span>
+                           <span>@</span>
+                        </p>
+                     </div>
+                     <div class="form__item">
+                        <input type="text" class="tel-mask" required>
+                        <p class="form__item-label">
+                           <span>T</span>
+                           <span>е</span>
+                           <span>л</span>
+                           <span>е</span>
+                           <span>ф</span>
+                           <span>о</span>
+                           <span>н</span>
+                           <span>*</span>
+                        </p>
+                     </div>
+                     <div class="form__item">
+                        <input type="text">
+                        <p class="form__item-label">
+                           <span>О</span>
+                           <span>п</span>
+                           <span>и</span>
+                           <span>ш</span>
+                           <span>и</span>
+                           <span>т</span>
+                           <span>е</span>
+                           <span> </span>
+                           <span>з</span>
+                           <span>а</span>
+                           <span>п</span>
+                           <span>р</span>
+                           <span>о</span>
+                           <span>с</span>
+                        </p>
+                     </div>
+                  </div>
+                  <div class="form__buttons">
+                     <button type="submit">отправить</button>
+                     <span class="success-btn">Ваш запрос отправлен
+                        <svg>
+                           <use xlink:href="img/icons/icons.svg#arrow-right"></use>
+                        </svg>
+                     </span>
+                     <p>Нажимая на кнопку, Вы соглашаетесь с
+                        <a href="policy.html">политикой конфиденциальности</a>
+                     </p>
+                  </div>
+                  <div class="loading-icon"></div>
+               </div>
+
+            </form>
+         </div>
+      </footer>
+      <div class="blur-circle"></div>
+   </div>
+   <script src="js/lightgallery.min.js"></script>
+   <script src="https://unpkg.com/imask"></script>
+   <script src="js/swiper-bundle.min.js"></script>
+   <script src="js/app.js"></script>
+</body>
+
+</html>
