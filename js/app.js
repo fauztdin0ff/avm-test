@@ -923,3 +923,80 @@ if (typeof lightGallery === 'function' && document.getElementById('galleryBlock'
       speed: 500
    });
 }
+
+
+/*------------------------------
+Services preview slider
+---------------------------*/
+document.addEventListener("DOMContentLoaded", () => {
+   const serviceSlider = document.querySelector('.services-preview__slider');
+   const titlesList = document.querySelector('.services-preview__list');
+
+   if (serviceSlider && titlesList) {
+      const serviceSwiper = new Swiper('.services-preview__slider', {
+         loop: false,
+         spaceBetween: 10,
+         freeMode: false,
+         slideToClickedSlide: true,
+         navigation: {
+            nextEl: '.services-preview__next',
+            prevEl: '.services-preview__prev',
+         },
+         pagination: {
+            el: '.services-preview__pagination',
+            type: 'fraction',
+         },
+         breakpoints: {
+            320: {
+               centeredSlides: true,
+               direction: 'vertical',
+               slidesPerView: 'auto',
+            },
+            500: {
+               centeredSlides: true,
+               direction: 'vertical',
+               slidesPerView: 'auto',
+            },
+            768: {
+               centeredSlides: true,
+               direction: 'horizontal',
+               slidesPerView: 2,
+            },
+
+            1024: {
+               centeredSlides: true,
+               direction: 'horizontal',
+               slidesPerView: 2,
+            },
+            1200: {
+               centeredSlides: true,
+               direction: 'horizontal',
+               slidesPerView: 3,
+            }
+         },
+      });
+
+      let currentTranslateY = 0;
+
+      serviceSwiper.on('slideChange', () => {
+         if (serviceSwiper.activeIndex > serviceSwiper.previousIndex) {
+            currentTranslateY -= 36;
+         } else if (serviceSwiper.activeIndex < serviceSwiper.previousIndex) {
+            currentTranslateY += 36;
+         }
+
+         titlesList.style.transform = `translateY(${currentTranslateY}px)`;
+      });
+
+
+
+      const prevArea = document.querySelector('.services-preview__prev-area');
+      const nextArea = document.querySelector('.services-preview__next-area');
+
+      if (prevArea && nextArea) {
+         prevArea.addEventListener('click', () => serviceSwiper.slidePrev());
+         nextArea.addEventListener('click', () => serviceSwiper.slideNext());
+      }
+   }
+
+});
