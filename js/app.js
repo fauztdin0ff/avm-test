@@ -1059,6 +1059,9 @@ document.addEventListener("DOMContentLoaded", () => {
             type: 'fraction',
          },
          on: {
+            init: function () {
+               solutionsSlider.classList.add('visible');
+            },
             slideChange: function () {
                if (this.activeIndex !== 0) {
                   solutionsTitle.classList.add('hide');
@@ -1069,5 +1072,4 @@ document.addEventListener("DOMContentLoaded", () => {
          }
       });
    }
-
 });
