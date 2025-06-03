@@ -7897,6 +7897,12 @@ Solutions
 
 .solutions__slider {
    height: 100%;
+   opacity: 0;
+   transition: opacity 0.5s ease;
+}
+
+.solutions__slider.visible {
+   opacity: 1;
 }
 
 .solutions__slide {
@@ -7956,6 +7962,7 @@ Solutions
    background: #00E999;
    width: 100%;
    border: none;
+   justify-content: space-between;
 }
 
 .solutions__controls {
